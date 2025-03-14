@@ -1,4 +1,5 @@
 # Car Showroom Database
+![image](https://github.com/user-attachments/assets/5324767a-b9ae-48e1-9297-2c96b8339ea0)
 
 ## Overview
 
@@ -19,3 +20,5 @@ This project is a backend database application developed for managing the operat
 **Programming Language**: Java (with JDBC) for database connectivity and logic handling.
 
 **Development Environment**: IntelliJ IDEA / Eclipse recommended.
+
+
