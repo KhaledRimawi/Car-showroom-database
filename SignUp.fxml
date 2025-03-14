@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20"
+	style="-fx-background-color: #F8F9FA; -fx-padding: 30;"
+	xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.SampleController">
+	<children>
+		<!-- Title Section -->
+		<VBox alignment="CENTER" spacing="5">
+			<children>
+				<Label
+					style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #34495E;"
+					text="Welcome to Car Showroom" />
+				<Label style="-fx-font-size: 16px; -fx-text-fill: #7F8C8D;"
+					text="Sign up to access exclusive services" />
+			</children>
+		</VBox>
+
+		<!-- Form Fields Section -->
+		<VBox alignment="CENTER" spacing="15"
+			style="-fx-padding: 20; -fx-background-color: #FFFFFF; -fx-border-color: #D5D8DC; -fx-border-radius: 12; -fx-background-radius: 12;">
+			<children>
+				<TextField fx:id="usernameField" promptText="Username"
+					style="-fx-prompt-text-fill: #B2BABB; -fx-background-radius: 8;" />
+				<TextField fx:id="EmailField" promptText="Email" />
+				<PasswordField fx:id="passwordField" promptText="Password"
+					style="-fx-prompt-text-fill: #B2BABB; -fx-background-radius: 8;" />
+			</children>
+		</VBox>
+
+		<!-- Buttons Section-->
+		<VBox alignment="CENTER" spacing="10">
+			<children>
+				<Button onAction="#add_users"
+					style="-fx-background-color: #28A745; -fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 30;"
+					text="Sign Up" />
+			</children>
+		</VBox>
+	</children>
+</VBox>
